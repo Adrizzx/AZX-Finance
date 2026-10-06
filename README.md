@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💰 AZX-Finance
+# AZX-Finance
 
 ### Plataforma web de finanzas personales con perfiles múltiples, metas, inversiones y reportes
 
@@ -10,50 +10,89 @@
 [![Chart.js](https://img.shields.io/badge/Chart.js-4-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)](https://www.chartjs.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
 
-### 🌐 [Ver demo en vivo → azxfinance.42web.io](https://azxfinance.42web.io/)
+### [Ver demo en vivo → azxfinance.42web.io](https://azxfinance.42web.io/)
+
+<img src="media/dashboard.jpg" alt="Dashboard de AZX-Finance" width="90%">
 
 </div>
 
 ---
 
-## 📖 Descripción
+## Descripción
 
 **AZX-Finance** es una aplicación web para administrar las finanzas personales de punta a punta: ingresos, gastos, presupuestos, ahorros, deudas, préstamos e inversiones, con un **dashboard visual** y **simuladores financieros**. Varias personas pueden compartir la misma instalación gracias a un sistema de **perfiles estilo Netflix**, cada uno protegido con su propia contraseña.
 
 El proyecto está desplegado en producción y fue construido con PHP nativo bajo una estructura modular, sin frameworks, priorizando la seguridad en el acceso a datos.
 
-## ✨ Funcionalidades
+## Capturas
+
+<table>
+  <tr>
+    <td width="50%"><img src="media/login.jpg" alt="Selección de perfil estilo Netflix"></td>
+    <td width="50%"><img src="media/registro.jpg" alt="Registro de perfil con avatar y color"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Selección de perfil estilo Netflix</sub></td>
+    <td align="center"><sub>Registro de perfil con avatar y color</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="media/presupuesto.jpg" alt="Presupuesto mensual por categoría"></td>
+    <td width="50%"><img src="media/metas.jpg" alt="Metas de ahorro con progreso"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Presupuesto mensual por categoría</sub></td>
+    <td align="center"><sub>Metas de ahorro con progreso</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="media/inversiones.jpg" alt="Portafolio de inversiones"></td>
+    <td width="50%"><img src="media/reportes.jpg" alt="Reportes y gráficos"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Portafolio de inversiones</sub></td>
+    <td align="center"><sub>Reportes y gráficos</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="media/simuladores.jpg" alt="Simuladores financieros"></td>
+    <td width="50%"><img src="media/ahorros.jpg" alt="Bolsillos de ahorro"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Simuladores financieros</sub></td>
+    <td align="center"><sub>Bolsillos de ahorro</sub></td>
+  </tr>
+</table>
+
+## Funcionalidades
 
 | Módulo | Descripción |
 |---|---|
-| 🔐 **Perfiles** | Selección de perfil con avatar y color, acceso por contraseña, perfiles ordenados por último uso |
-| 📊 **Dashboard** | Ingresos y gastos del mes, balance, total ahorrado, deudas activas, gráfico de gastos por categoría y progreso de metas |
-| 💵 **Ingresos y gastos** | Registro por categorías personalizables, filtros por fecha y montos |
-| 📅 **Presupuesto mensual** | Límite por categoría con seguimiento del consumo real |
-| 🎯 **Metas de ahorro** | Objetivos con prioridad, aportes parciales y porcentaje de avance |
-| 🐷 **Bolsillos** | Separación del ahorro en bolsillos y transferencias entre ellos |
-| 💳 **Deudas y préstamos** | Saldo pendiente, historial de pagos y préstamos otorgados a terceros |
-| 📈 **Inversiones** | Portafolio por tipo de inversión con rendimiento |
-| 🧮 **Simuladores** | Interés compuesto, regla 50/30/20, inflación, capacidad de endeudamiento y meta de ahorro |
-| 💱 **Conversor de monedas** | Conversión entre divisas |
-| 📑 **Reportes** | Gráficos y resúmenes por período |
-| 🌗 **Tema claro / oscuro** | Preferencia guardada por usuario |
+| **Perfiles** | Selección de perfil con avatar y color, acceso por contraseña, perfiles ordenados por último uso |
+| **Dashboard** | Ingresos y gastos del mes, balance, total ahorrado, deudas activas, gráfico de gastos por categoría y progreso de metas |
+| **Ingresos y gastos** | Registro por categorías personalizables, filtros por fecha y montos |
+| **Presupuesto mensual** | Límite por categoría con seguimiento del consumo real |
+| **Metas de ahorro** | Objetivos con prioridad, aportes parciales y porcentaje de avance |
+| **Bolsillos** | Separación del ahorro en bolsillos y transferencias entre ellos |
+| **Deudas y préstamos** | Saldo pendiente, historial de pagos y préstamos otorgados a terceros |
+| **Inversiones** | Portafolio por tipo de inversión con rendimiento |
+| **Simuladores** | Interés compuesto, regla 50/30/20, inflación, capacidad de endeudamiento y meta de ahorro |
+| **Conversor de monedas** | Conversión entre divisas |
+| **Reportes** | Gráficos y resúmenes por período |
+| **Tema claro / oscuro** | Preferencia guardada por usuario |
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - **Backend:** PHP 8 (nativo), PDO con consultas preparadas
 - **Base de datos:** MySQL / MariaDB (20 tablas relacionadas)
 - **Frontend:** HTML5, CSS3, JavaScript ES6, Bootstrap 5.3, Chart.js, SweetAlert2, Font Awesome
 - **Despliegue:** hosting Apache + MySQL
 
-## 🔒 Seguridad
+## Seguridad
 
 - Contraseñas almacenadas con `password_hash()` y verificadas con `password_verify()`.
 - **Más de 170 consultas preparadas** con PDO: sin concatenación de SQL, protegido contra inyección.
 - Salida escapada con `htmlspecialchars()` para prevenir XSS.
 - Control de sesión en cada página y credenciales de la base de datos fuera del repositorio.
 
-## 🏗️ Estructura del proyecto
+## Estructura del proyecto
 
 ```
 AZX-Finance/
@@ -76,7 +115,7 @@ AZX-Finance/
     └── GUIA_PRUEBAS.md    # Casos de prueba por módulo
 ```
 
-## 🗄️ Modelo de datos
+## Modelo de datos
 
 ```mermaid
 erDiagram
@@ -204,7 +243,7 @@ erDiagram
     }
 ```
 
-## 🚀 Instalación local
+## Instalación local
 
 **Requisitos:** PHP 8+, MySQL 8 o MariaDB, Apache (XAMPP, Laragon o similar).
 
@@ -217,14 +256,14 @@ mysql -u root -p < AZX-Finance/database/azx_finance.sql
 
 # 3. Configurar la conexión
 cp AZX-Finance/config/database.example.php AZX-Finance/config/database.php
-#    y editar DB_HOST, DB_NAME, DB_USER y DB_PASS
+# y editar DB_HOST, DB_NAME, DB_USER y DB_PASS
 
 # 4. Ajustar BASE_URL en config/config.php y abrir en el navegador
 ```
 
 Los usuarios de prueba y los casos de verificación por módulo están en [`docs/GUIA_PRUEBAS.md`](docs/GUIA_PRUEBAS.md).
 
-## 👤 Autor
+## Autor
 
 **Marco Adrián Padilla Triviño** · Estudiante de Ingeniería de Software, Universidad de las Fuerzas Armadas ESPE
 
