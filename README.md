@@ -10,7 +10,6 @@
 [![Chart.js](https://img.shields.io/badge/Chart.js-4-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)](https://www.chartjs.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
 
-### [Ver demo en vivo → azxfinance.42web.io](https://azxfinance.42web.io/)
 
 <img src="media/dashboard.jpg" alt="Dashboard de AZX-Finance" width="90%">
 
@@ -22,7 +21,7 @@
 
 **AZX-Finance** es una aplicación web para administrar las finanzas personales de punta a punta: ingresos, gastos, presupuestos, ahorros, deudas, préstamos e inversiones, con un **dashboard visual** y **simuladores financieros**. Varias personas pueden compartir la misma instalación gracias a un sistema de **perfiles estilo Netflix**, cada uno protegido con su propia contraseña.
 
-El proyecto está desplegado en producción y fue construido con PHP nativo bajo una estructura modular, sin frameworks, priorizando la seguridad en el acceso a datos.
+El proyecto estuvo desplegado en un hosting público y fue construido con PHP nativo bajo una estructura modular, sin frameworks, priorizando la seguridad en el acceso a datos.
 
 ## Capturas
 
@@ -83,7 +82,7 @@ El proyecto está desplegado en producción y fue construido con PHP nativo bajo
 - **Backend:** PHP 8 (nativo), PDO con consultas preparadas
 - **Base de datos:** MySQL / MariaDB (20 tablas relacionadas)
 - **Frontend:** HTML5, CSS3, JavaScript ES6, Bootstrap 5.3, Chart.js, SweetAlert2, Font Awesome
-- **Despliegue:** hosting Apache + MySQL
+- **Despliegue:** hosting Apache + MySQL (InfinityFree)
 
 ## Seguridad
 

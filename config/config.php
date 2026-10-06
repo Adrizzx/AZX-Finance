@@ -7,7 +7,7 @@
 date_default_timezone_set('America/Bogota');
 
 // URL base del proyecto
-define('BASE_URL', 'https://azxfinance.42web.io/');
+define('BASE_URL', 'http://localhost/AZX-Finance/');
 
 // Rutas del sistema
 define('ROOT_PATH', dirname(__DIR__) . '/');
